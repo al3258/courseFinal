@@ -1,0 +1,14 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "description": "final project for front-end foundations course",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve"
+  },
+  "author": "Amanda Li",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
