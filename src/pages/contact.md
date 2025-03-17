@@ -28,7 +28,7 @@ Connect with Me:
 - [LinkedIn](https://www.linkedin.com/in/liamanda32/)
 - [GitHub](https://github.com/al3258)
 
-Contact Me using this <a href="#" id="contactLink">form</a>
+Contact Me using this <a href="#" id="contactLink">form</a>.
 
 <div class="popover" id="contactPopover">
     {% include "contact.html" %}
@@ -40,10 +40,10 @@ document.addEventListener('DOMContentLoaded', function() {
   const contactPopover = document.getElementById('contactPopover');
 
   if (contactLink && contactPopover) {
-      contactPopover.style.display = 'none'; // Ensure popover is initially hidden
+      contactPopover.style.display = 'none';
 
       contactLink.addEventListener('click', function(event) {
-          event.preventDefault(); // Prevent default link behavior
+          event.preventDefault();
           contactPopover.style.display = (contactPopover.style.display === 'block') ? 'none' : 'block';
       });
 
@@ -58,4 +58,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-[Back](/) to Random Pokémon Generator
+<div style="position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);">
+    <a href="/">Back to Random Pokémon Generator</a>
+</div>
