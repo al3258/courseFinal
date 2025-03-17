@@ -4,7 +4,8 @@
   "description": "final project for front-end foundations course",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve"
+    "start": "eleventy --serve",
+    "build": "npx @11ty/eleventy"
   },
   "author": "Amanda Li",
   "license": "ISC",
